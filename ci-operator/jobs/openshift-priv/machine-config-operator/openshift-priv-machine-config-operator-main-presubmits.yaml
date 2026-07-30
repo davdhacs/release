@@ -5912,6 +5912,7 @@ presubmits:
     branches:
     - ^main$
     - ^main-
+    cluster: build06
     context: ci/prow/tls-pqc-readiness
     decorate: true
     decoration_config:
